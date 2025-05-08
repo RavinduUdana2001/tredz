@@ -1,0 +1,91 @@
+.main-body{
+    background-image: url("resource/background1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-body1{
+    background-image: url("resource/chatb.jpg");
+  
+   
+    
+}
+
+.box{
+    position: absolute;
+    top:0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    height: 610px;
+    background-color:transparent;
+    backdrop-filter: blur(20px);
+    border: 1px solid black;
+    border-radius:20px;
+}
+
+.box1{
+    position: absolute;
+    top:0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    height: 400px;
+    background-color:transparent;
+    backdrop-filter: blur(20px);
+    border: 1px solid black;
+    border-radius:20px;
+}
+
+
+.box3{
+    height: 600px;
+    background-color:transparent;
+    backdrop-filter: blur(1px);
+    border: 2px solid black;
+    border-radius:20px;
+}
+
+
+
+.logo{
+    background-image: url(resource/logo.png);
+    height: 50px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.signin{
+    visibility: hidden;
+}
+
+.userprofilebox{
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    height: 1270px;
+    margin: auto;
+}
+
+@font-face {
+    font-family: Rubik Burned;
+    src: url(fonts/RubikBurned-Regular.ttf);
+}
+
+@font-face {
+    font-family: Grape Nuts;
+    src: url(fonts/GrapeNuts-Regular.ttf);
+}
+
+@font-face {
+    font-family:Exo 2;
+    src: url(Exo2-VariableFont_wght.ttf);
+}
+.message_box,
+.chat_box{
+    height: 510px;
+    overflow-y: scroll;
+}
